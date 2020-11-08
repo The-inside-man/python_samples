@@ -430,7 +430,7 @@ def substrCount(n, s):
 		ctr += 1
 		if i and (prev != v):
 			j = 1
-			while((i - j) >= 0) and ((i + j) < len(s)) and j <<= ctr:
+			while((i - j) >= 0) and ((i + j) < len(s)) and j <= ctr:
 				if s[i - j] == prev == s[i + j]:
 					total += 1
 					j += 1
