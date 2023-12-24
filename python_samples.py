@@ -9,6 +9,8 @@ import sys
 from collections import Counter
 from collections import deque
 
+# Author: The-Inside-Man
+
 # Many solution below are those I have 
 # concluded from taking problems in the
 # Hackerrank.com practice tests.
